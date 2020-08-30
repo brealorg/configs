@@ -297,7 +297,7 @@ system {
                 encrypted-password ****************
                 plaintext-password ****************
             }
-            full-name "Gisle En<C3><A5>sen"
+            full-name "G"
             level admin
         }
         user ubnt {
