@@ -1,3 +1,13 @@
+## REMOTE: 
+## ps a |grep X
+## 4104 tty7     Sl+    0:00 /usr/bin/X vt7 -displayfd 3 -auth /run/user/111/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+## DISPLAY=:0 XAUTHORITY=/run/user/111/gdm/Xauthority nvidia-settings [youroptions]
+
+# sudo nvidia-xconfig --enable-all-gpus
+# sudo nvidia-xconfig -a --cool-bits=28 --allow-empty-initial-configuration
+# sudo reboot
+#sudo -s DISPLAY=:0 XAUTHORITY=/run/user/126/gdm/Xauthority nvidia-settings -a '[gpu:0]/GPUPowerMizerMode=1'
+
 ## sudo apt install nvidia-cuda-toolkit
 ## sudo apt install nvidia-drivers-XXX  
 
