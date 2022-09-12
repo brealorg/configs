@@ -1,0 +1,1 @@
+for i in .*/**/*.mkv; do ffmpeg -hwaccel_device 0 -hwaccel cuda  -i $i -c:v hevc_nvenc -preset slow -c:a copy ${i%.*}-x265..mkv; done
